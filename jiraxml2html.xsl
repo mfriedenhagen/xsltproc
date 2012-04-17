@@ -1,9 +1,7 @@
-<?xml version="1.0"?>
-
-<!-- Sample stylesheet which renders JIRA's RSS (XML) output in a HTML format similar to the {jiraissues} macro in Confluence. See navigator-rss.jsp for how to apply this automatically. -->
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+                xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                version="1.0">
     <xsl:param name="url" select="'undefined.jira.url'"/>
 
     <xsl:param name="title_type" select="'T'"/>
