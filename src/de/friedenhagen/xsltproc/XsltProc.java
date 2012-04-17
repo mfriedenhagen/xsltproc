@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication3;
+package de.friedenhagen.xsltproc;
 
 import java.io.File;
 import java.io.FileInputStream;
